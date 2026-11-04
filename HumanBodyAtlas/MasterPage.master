@@ -1,0 +1,123 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs"Inherits="HumanBodyAtlas" %>
+    
+    
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Human Body Atlas</title>
+
+    <link href="<%: ResolveUrl("~/Style/Site.css") %>" rel="stylesheet" />
+    <script>
+     function updateClock() {
+         var now = new Date();
+         var date = now.toLocaleDateString(undefined, {
+             weekday: "long",
+             year: "numeric",
+             month: "long",
+             day: "numeric"
+         });
+         var time = now.toLocaleTimeString(undefined, {
+             hour: "numeric",
+             minute: "2-digit",
+             second: "2-digit"
+         });
+         var timer = document.getElementById("Timer");
+
+         if (timer) {
+             timer.innerHTML = time + "<br />" + date;
+         }
+     }
+
+     window.addEventListener("load", function () {
+         updateClock();
+         window.setInterval(updateClock, 1000);
+     });
+    </script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+
+        <table class="header" width="100%">
+            <tr>
+               
+                <td class="header-left" width="25%">
+                    <p>10:30 AM</p>
+                    <p>3 November 2026</p>
+                </td>
+
+                <td class="header-center" width="50%">
+                    <h1>Human Body Atlas</h1>
+                    <p>Discover • Learn • Explore</p>
+                </td>
+
+             
+                <td class="header-right" width="25%">
+                    <a href="#">Login</a>
+                    <a href="#" class="register-button">Register</a>
+                </td>
+            </tr>
+        </table>
+
+
+       
+        <table class="navigation" width="100%">
+            <tr>
+                <td>
+                    <a href="Default.aspx">Home</a>
+                </td>
+
+                <td>
+                    <a href="BodySystems.aspx">Body Systems</a>
+                </td>
+
+                <td>
+                    <a href="Organs.aspx">Organs</a>
+                </td>
+
+                <td>
+                    <a href="About.aspx">About</a>
+                </td>
+
+                <td>
+                    <input type="text"
+                           placeholder="Search organs and systems..." />
+                </td>
+            </tr>
+        </table>
+
+        <div class="main-content">
+
+            <asp:ContentPlaceHolder
+                ID="ContentPlaceHolder1"
+                runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div>
+
+        <table class="footer" width="100%">
+            <tr>
+                <td width="70%">
+                    <h3>Human Body Atlas</h3>
+                    <p>Discover • Learn • Explore</p>
+                </td>
+
+                <td width="15%">
+                    <a href="Default.aspx">Home</a>
+                    <a href="About.aspx">About</a>
+                </td>
+
+                <td width="15%">
+                    <p>Contact us</p>
+                    <p>© 2026 Human Body Atlas</p>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>
