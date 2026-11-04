@@ -1,6 +1,6 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs"Inherits="HumanBodyAtlas" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="HumanBodyAtlas.MasterPage" %>
     
-    
+
 <!DOCTYPE html>
 
 <html>
@@ -46,8 +46,7 @@
             <tr>
                
                 <td class="header-left" width="25%">
-                    <p>10:30 AM</p>
-                    <p>3 November 2026</p>
+                    <p id="Timer">Loading...</p>
                 </td>
 
                 <td class="header-center" width="50%">
@@ -112,7 +111,7 @@
                 </td>
 
                 <td width="15%">
-                    <p>Contact us</p>
+                    <p>Contact us {email} </p>
                     <p>© 2026 Human Body Atlas</p>
                 </td>
             </tr>
