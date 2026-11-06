@@ -27,7 +27,7 @@
             Human Body Atlas is an educational platform designed to help
             you understand the structure and functions of the human body.
             Discover how organs work individually and how body systems
-            cooperate with one another.
+            cooperate with one another to keep the body functioning.
         </p>
     </section>
 
@@ -94,7 +94,7 @@
     <section class="fact-section">
         <h2>Did You Know?</h2>
         <p>
-            The human heart beats approximately 100,000 times per day
+            That the human heart beats approximately 100,000 times per day
             in a typical adult.
         </p>
     </section>

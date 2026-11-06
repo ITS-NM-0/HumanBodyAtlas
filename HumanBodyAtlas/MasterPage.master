@@ -83,6 +83,10 @@
                 </td>
 
                 <td>
+                    <a href="NHRR.aspx">Your NHRR</a>
+                </td>
+
+                <td>
                     <input type="text"
                            placeholder="Search organs and systems..." />
                 </td>
@@ -111,7 +115,8 @@
                 </td>
 
                 <td width="15%">
-                    <p>Contact us {email} </p>
+                    <p>Contact us</p>
+                    <a href="mailto:humanbodyatlas@gmail.com">Email Us</a>
                     <p>© 2026 Human Body Atlas</p>
                 </td>
             </tr>

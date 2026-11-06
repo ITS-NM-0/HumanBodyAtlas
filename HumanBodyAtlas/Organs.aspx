@@ -75,7 +75,7 @@
 
         <div class="info-card">
             <h2>Eyes</h2>
-            <p>Detect light and allow us to see.</p>
+            <p>Your eyes are a key sensory organ, feeding information to your brain about the outside world. Your eyes do the “physical” part of seeing. The signals they send allow your brain to “build” the picture that you see. Eye-related symptoms are also key clues to issues affecting your whole body, so experts recommend making eye health a priority .</p>
             <a href="Organs/Eyes.aspx">Learn More</a>
         </div>
 

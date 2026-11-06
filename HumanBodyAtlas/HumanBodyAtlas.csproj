@@ -70,6 +70,7 @@
     <Content Include="About.aspx" />
     <Content Include="BodySystems.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="NHRR.aspx" />
     <Content Include="Organs.aspx" />
     <Content Include="Style\Site.css" />
     <Content Include="Web.config" />
@@ -102,6 +103,13 @@
     </Compile>
     <Compile Include="MasterPage.master.designer.cs">
       <DependentUpon>MasterPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="NHRR.aspx.cs">
+      <DependentUpon>NHRR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NHRR.aspx.designer.cs">
+      <DependentUpon>NHRR.aspx</DependentUpon>
     </Compile>
     <Compile Include="Organs.aspx.cs">
       <DependentUpon>Organs.aspx</DependentUpon>
