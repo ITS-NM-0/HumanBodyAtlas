@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Home" Language="C#" MasterPageFile="~/MasterPage.master"
-    AutoEventWireup="true" CodeBehind="Default.aspx.cs"
+    AutoEventWireup="true" CodeBehind="Home.aspx.cs"
     Inherits="HumanBodyAtlas.Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
@@ -21,7 +21,9 @@
     </section>
 
     <section>
-        <h2>Welcome to Human Body Atlas</h2>
+        <div class="info-card">
+            <h2>Welcome to Human Body Atlas</h2>
+        
 
         <p>
             Human Body Atlas is an educational platform designed to help
@@ -29,6 +31,7 @@
             Discover how organs work individually and how body systems
             cooperate with one another to keep the body functioning.
         </p>
+        </div>
     </section>
 
     <section>

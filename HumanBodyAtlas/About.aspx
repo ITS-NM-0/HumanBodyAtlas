@@ -12,5 +12,6 @@
         <div class="info-card">
             <h2>About The Website</h2>
             <p>This website is designed to provide information about the human body and its various systems. It aims to educate users about the functions and importance of each system in maintaining overall health.</p>
-
+            </div>
+        </div>
 </asp:Content>

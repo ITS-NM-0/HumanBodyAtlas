@@ -17,67 +17,67 @@
         <div class="info-card">
             <h2>Nervous System</h2>
             <p>Receives and processes information and coordinates body responses.</p>
-            <a href="#">Learn More</a>
+            <a href="Systems/Nervous System.aspx">Learn More</a>
         </div>
 
         <div class="info-card">
             <h2>Circulatory System</h2>
             <p>Transports blood, oxygen, nutrients, and other substances.</p>
-            <a href="#">Learn More</a>
+            <a href="Systems/Circulatory System.aspx">Learn More</a>
         </div>
 
         <div class="info-card">
             <h2>Respiratory System</h2>
             <p>Supplies oxygen and removes carbon dioxide through gas exchange.</p>
-            <a href="#">Learn More</a>
+            <a href="Systems/Respiratory System.aspx">Learn More</a>
         </div>
 
         <div class="info-card">
             <h2>Digestive System</h2>
             <p>Breaks down food and absorbs nutrients.</p>
-            <a href="#">Learn More</a>
+            <a href="Systems/Digestive System.aspx">Learn More</a>
         </div>
 
         <div class="info-card">
             <h2>Skeletal System</h2>
             <p>Supports the body, protects organs, and helps movement.</p>
-            <a href="#">Learn More</a>
+            <a href="Systems/Skeletal System.aspx">Learn More</a>
         </div>
 
         <div class="info-card">
             <h2>Muscular System</h2>
             <p>Enables movement and helps maintain posture.</p>
-            <a href="#">Learn More</a>
+            <a href="Systems/Muscular System.aspx">Learn More</a>
         </div>
 
         <div class="info-card">
             <h2>Endocrine System</h2>
             <p>Produces hormones that regulate body processes.</p>
-            <a href="#">Learn More</a>
+            <a href="Systems/Endocrine System.aspx">Learn More</a>
         </div>
 
         <div class="info-card">
             <h2>Urinary System</h2>
             <p>Filters blood and removes waste through urine.</p>
-            <a href="#">Learn More</a>
+            <a href="Systems/Urinary System.aspx">Learn More</a>
         </div>
 
         <div class="info-card">
             <h2>Reproductive System</h2>
             <p>Contains organs involved in human reproduction.</p>
-            <a href="#">Learn More</a>
+            <a href="Systems/Reproductive System.aspx">Learn More</a>
         </div>
 
         <div class="info-card">
             <h2>Integumentary System</h2>
             <p>Includes the skin, hair, and nails and helps protect the body.</p>
-            <a href="#">Learn More</a>
+            <a href="Systems/Integumentary System.aspx">Learn More</a>
         </div>
 
         <div class="info-card">
             <h2>Lymphatic and Immune System</h2>
             <p>Helps defend the body against infections and supports fluid balance.</p>
-            <a href="#">Learn More</a>
+            <a href="Systems/Lymphatic and Immune System.aspx">Learn More</a>
         </div>
 
     </div>

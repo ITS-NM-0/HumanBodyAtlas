@@ -51,13 +51,13 @@
 
                 <td class="header-center" width="50%">
                     <h1>Human Body Atlas</h1>
-                    <p>Discover • Learn • Explore</p>
+                    <p>Discover - Learn - Explore</p>
                 </td>
 
              
                 <td class="header-right" width="25%">
-                    <a href="#">Login</a>
-                    <a href="#" class="register-button">Register</a>
+                    <a href="Login.aspx">Login</a>
+                    <a href="Register.aspx" class="register-button">Register</a>
                 </td>
             </tr>
         </table>
@@ -67,7 +67,7 @@
         <table class="navigation" width="100%">
             <tr>
                 <td>
-                    <a href="Default.aspx">Home</a>
+                    <a href="Home.aspx">Home</a>
                 </td>
 
                 <td>
@@ -106,7 +106,7 @@
             <tr>
                 <td width="70%">
                     <h3>Human Body Atlas</h3>
-                    <p>Discover • Learn • Explore</p>
+                    <p>Discover - Learn - Explore</p>
                 </td>
 
                 <td width="15%">

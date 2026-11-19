@@ -10,6 +10,7 @@ body {
     background-color: #f1f7fc;
     color: #304b66;
 }
+
 .header {
     background-color: white;
     border-spacing: 15px;
@@ -43,11 +44,11 @@ body {
     box-shadow: 0 4px 14px rgba(40, 90, 130, 0.08);
 }
 
-.health-reference h1 {
-    margin: 0 0 12px;
-    color: #286c9e;
-    text-align: center;
-}
+    .health-reference h1 {
+        margin: 0 0 12px;
+        color: #286c9e;
+        text-align: center;
+    }
 
 .reference-intro {
     max-width: 850px;
@@ -111,11 +112,11 @@ body {
     box-shadow: 0 4px 14px rgba(40, 90, 130, 0.08);
 }
 
-.health-reference h1 {
-    margin: 0 0 12px;
-    color: #286c9e;
-    text-align: center;
-}
+    .health-reference h1 {
+        margin: 0 0 12px;
+        color: #286c9e;
+        text-align: center;
+    }
 
 .reference-intro {
     max-width: 850px;
@@ -159,11 +160,11 @@ body {
     box-shadow: 0 4px 14px rgba(40, 90, 130, 0.08);
 }
 
-.health-reference h1 {
-    margin: 0 0 12px;
-    color: #286c9e;
-    text-align: center;
-}
+    .health-reference h1 {
+        margin: 0 0 12px;
+        color: #286c9e;
+        text-align: center;
+    }
 
 .reference-intro {
     max-width: 850px;
@@ -277,16 +278,16 @@ body {
     line-height: 1.8;
 }
 
-    .header-center h1 {
-        color: #347fb5;
-        margin: 5px;
-        font-size: 27px;
-    }
+.header-center h1 {
+    color: #347fb5;
+    margin: 5px;
+    font-size: 27px;
+}
 
-    .header-center p {
-        color: #8296a9;
-        margin: 5px;
-    }
+.header-center p {
+    color: #8296a9;
+    margin: 5px;
+}
 
 .header-right {
     text-align: right;
